@@ -60,3 +60,27 @@ print(car)
 
 car.remove('bmw')
 print(car)
+
+#python with loops 
+magicians = ['alice' , 'david' , 'caroline']
+for magician in magicians:
+      print(magician)
+
+      print(magician.title() 
+            +", that was a great trick!")
+      print("I can't wait to see your next trick," + magician.title() + ".\n")
+
+numbers = list(range(1,8))
+print(numbers)
+
+even_numbers = list(range(2,11,2))
+print(even_numbers)
+
+squares = []
+for value in range(1,11):
+      squares = value**2
+      squares.append(squares)
+
+print(squares)
+
+#List Comprehensions

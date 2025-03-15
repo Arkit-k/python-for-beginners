@@ -1,6 +1,6 @@
 dinner = ['satan', ' yeo chen','paimon', ' ayush']
 
-
+print(len(dinner))
 for guest in dinner:
       print(f"you are invited for grand celebration {guest} in party")
 
