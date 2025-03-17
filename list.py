@@ -49,11 +49,12 @@ print(motor)
 
 #this will basically delete from the back the last value 
 poped_item = motor.pop()
-print(motor)
+# print(motor)
 
-#Popping Items from any Position in a List
-poped_item = motor.pop(3)
-print(motor)
+# #Popping Items from any Position in a List
+# poped_item = motor
+# poped_item.pop(2)
+# print(poped_item)
 
 car = [ 'bmw' , 'mercedies' , 'rr','porse']
 print(car)
@@ -79,8 +80,46 @@ print(even_numbers)
 squares = []
 for value in range(1,11):
       squares = value**2
-      squares.append(squares)
 
 print(squares)
 
 #List Comprehensions
+
+counts = []
+for count in range(1,21,2):
+      counts.append(count)
+       
+
+# million = []
+# for numbers in range(1, 1000000000):
+#       million.append(numbers)
+#       # print(million)
+#       print(min(million))
+#       print(max(million))
+#       print(sum(million))
+# cubes = [x**3 for x in range(1, 11)]  # Cubing numbers from 1 to 10
+# print(cubes)
+
+#  Slicing a List
+players = ['charles', 'martina', 'michael', 'florence', 'eli']
+print(players[0:3])
+print(players[1:4])
+print(players[:4])
+print(players[2:])
+
+
+players = ['charles', 'martina', 'michael', 'florence', 'eli'] 
+print("Here are the first three players on my team:")
+for player in players[:3]:
+      print(player.title())
+
+
+#copying a list 
+my_foods = ['pizza', 'falafel', 'carrot cake']
+friend_foods = my_foods[:]
+
+print("my favorite foood are:")
+print(my_foods)
+
+
+
