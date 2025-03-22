@@ -75,3 +75,22 @@ fails only when both individual tests fail."""
 age_0 = 22
 age_1 = 18
 age_0 >= 21 or age_1 >= 22
+
+age = 4
+
+if age < 4:
+      print("your admission cost is freee")
+elif age < 18:
+      print("your admission cost is $5")
+else:
+      print("your submision cost is 10")
+
+
+requested_topping = ["mashrooms" , 'extra cheese']
+
+if 'mushrooms' in requested_topping:
+      print("Adding mushrooms.")
+if 'pepperoni' in requested_topping:
+      print('adding pepperoni')
+if 'extra cheese' in requested_topping:
+      print('adding extra cheese')
